@@ -66,7 +66,7 @@ from trails.feeds.urlvir import fetch as urlvirfetch
 from trails.feeds.voipbl import fetch as voipblfetch
 from trails.feeds.vxvault import fetch as vxfetch
 a=[chinadfetch(),confickerfetch(),cryptolockerfetch(),gameoverfetch(),lockyfetch(),necursfetch(),tofseefetch(),virutfetch(),abuseipdbfetch(),alienvaultfetch(),atmosfetch(),badipsfetch(),dnsfetch(),dgafetch(),bitfetch(),blackfetch(),blockfetch(),botfetch(),brufetch(),ciafetch(),cobfetch(),crufetch(),cybfetch(),datafetch(),nsfetch(),dsfetch(),emfetch(),cipfetch(),emerfetch(),snowfetch(),lokifetch(),magfetch(),malfetch(),maldnsfetch(),malmainsfetch(),maxmindfetch(),minerfetch(),myipfetch(),nothinkfetch(),openfetch(),policefetch(),ponyfetch(),proxyrssfetch(),proxylistsfetch(),proxyspyfetch(),randnsfetch(),ranipfetch(),ranurlfetch(),ripfetch(),rutfetch(),sblamfetch(),sockfetch(),sslipfetch(),sslprofetch(),talofetch(),torfetch(),torsfetch(),trickbotfetch(),turrisfetch(),urlhausfetch(),urlvirfetch(),voipblfetch(),vxfetch()]
-directory="/root"
+directory="/root/blacklist"
 os.chdir(directory)
 t = time.strftime('%Y-%m-%d',time.localtime())
 suffix=".csv"
